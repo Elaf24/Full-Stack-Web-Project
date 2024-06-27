@@ -30,7 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/9877a58f-be29-44cb-8a00-3b0644054caa" alt="Logo" width="800" height="500">
+   <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/9877a58f-be29-44cb-8a00-3b0644054caa" alt="Logo" width="800" height="500" style="border-radius: 10px;">
+
  
 </div>
 
