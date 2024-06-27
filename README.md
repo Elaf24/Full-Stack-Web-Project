@@ -67,7 +67,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+সহায়তার দ্বার is a website that connects food donors with charities and NGOs to combat food waste and aid those in need. We provide healthy meals, essential clothing, and books to vulnerable communities. The volunteers successfully donates to the people in need in different areas of Bangladesh, including crisis-affected communities by effective online campaigns.
 
 
 
