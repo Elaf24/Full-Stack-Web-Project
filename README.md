@@ -139,6 +139,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## User Interface
 ![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/31855384-93a3-4f51-8daf-57eb38f792de)
 ![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/3331b547-fcd7-4bff-a941-6c7954c2a966)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/7f95a284-1e6d-49a6-97f5-faf559359df5)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/fd47b30e-aec4-4752-8e90-5063eda5f2aa)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/19c75d08-8495-4c48-ad0b-f643bf616cbd)
+
+
 
 
 
