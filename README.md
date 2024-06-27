@@ -136,7 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## USER INTERFACE
+## User Interface
 
 <!-- [x] Add Changelog
 - [x] Add back to top links
