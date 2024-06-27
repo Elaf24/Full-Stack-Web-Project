@@ -39,7 +39,8 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents</summary>![todo](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/5c55c38a-86f2-409c-bddd-fcfc89dbecce)
+
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
