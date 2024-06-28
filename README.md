@@ -1,3 +1,7 @@
+
+
+
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -23,166 +27,140 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]-->
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-   <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/9877a58f-be29-44cb-8a00-3b0644054caa" alt="Logo" width="900" height="500" style="border-radius: 30px;">
+<!--   <a href="https://github.com/othneildrew/Best-README-Template"> -->
+    <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/9877a58f-be29-44cb-8a00-3b0644054caa" alt="Logo" width="900" height="500" style="border-radius: 30px;">
 
- 
+  </a>
+
+
+
+  <p align="center">
+<!--     An awesome README template to jumpstart your projects! -->
+<!--     <br /> -->
+<!--     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br /> -->
+<!--     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
+<!--     ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a> -->
+<!--     · -->
+<!--     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a> -->
+  </p>
 </div>
-
 
 
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents </summary> 
-
+  <summary> <img src="https://github.com/Elaf24/AI-Project/assets/110555263/20ff6046-c470-4875-8923-93b8b44c6e17" height="40" widht="40"> Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Project ScreenShot</a></li>
-<!--     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li> -->
+    <li><a href="#about">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#installation-guide">Installation Guide</a></li>
+    <li><a href="#front-end">Front End</a></li>
   </ol>
 </details>
 
 
 
+
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project :bulb:
+<p align="right">(<a id="about" href="#readme-top">back to top</a>)</p>
 সহায়তার দ্বার is a website that connects food donors with charities and NGOs to combat food waste and aid those in need. We provide healthy meals, essential clothing, and books to vulnerable communities. The volunteers successfully donates to the people in need in different areas of Bangladesh, including crisis-affected communities by effective online campaigns.
 
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Built With  :hammer_and_wrench:
+<p align="right">(<a id= "built-with" href="#readme-top">back to top</a>)</p>
+ 
+
+  <img src="https://github.com/Elaf24/Vehicle-Detection-Speed-Estimation/assets/110555263/9f0fd0a1-e1fa-46d4-aa1c-57cffb4914e7" height="40" width="40">
+  <img src="https://github.com/Elaf24/Vehicle-Detection-Speed-Estimation/assets/110555263/c89b718f-b510-4b7b-a6d1-53f53f228bdb" height="40" width="40">
+ <img src="https://github.com/Elaf24/Vehicle-Detection-Speed-Estimation/assets/110555263/2cee0af7-b0e5-449e-8766-f46244cd8373"height="40" width="80">
+ <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/94f2aaef-7452-43ca-afa7-8d1fdf6cd6fe" height="40" width="70">
+ <img src="https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/3bad983a-07af-4a5f-9171-ad9ddcf7c7bb" height="40" width="40">
 
 
 
-### Built With
 
 
 
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+*  **PHP & JavaScript** for backend development
+*  **HTML/CSS** for frontend design
+*   **MYSQL** for database
+
+
+
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Installation Guide :gear:
+<p align="right">(<a id="installation-guide" href="#readme-top">back to top</a>)</p>
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1.Clone the repository:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
   ```sh
-  npm install npm@latest -g
+https://github.com/Elaf24/Full-Stack-Web-Project.git
   ```
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-<!-- 4. Enter your API in `config.js` -->
-<!-- ```js -->
-<!-- const API_KEY = 'ENTER YOUR API'; -->
-<!-- ``` -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## User Interface
-![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/31855384-93a3-4f51-8daf-57eb38f792de)
-![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/3331b547-fcd7-4bff-a941-6c7954c2a966)
-![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/7f95a284-1e6d-49a6-97f5-faf559359df5)
-![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/fd47b30e-aec4-4752-8e90-5063eda5f2aa)
-![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/19c75d08-8495-4c48-ad0b-f643bf616cbd)
-
-
-
-
-
-<!-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-<!--## Contributing
+## Front End :camera:
+<p align="right">(<a id="front-end" href="#readme-top">back to top</a>)</p>
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/4e396c8c-e554-44af-9a2d-dd1c373501f3)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/1a50d8e2-c125-4cdd-b5ee-29ea6dd18aad)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/376d00ff-c732-4b0f-bfa4-593f890e74d8)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/5a8e6fec-186b-4c14-992a-f92f920f2bd2)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/10433e4b-e678-44ab-816e-ca332e8db0c2)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/8028c743-e6d8-4a45-904d-a4d33fc39026)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/b5a83dff-69a9-4f8e-9b2b-89a3b8036b7e)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/d013b4d2-acee-4319-bfa8-9f07116b09d3)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/9b911341-7d8c-4a04-9dae-a6c743d73e20)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/ac67bea6-9d35-4ea8-851d-932482c5d788)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/b2e6eeb7-89b9-4ce7-872b-d11cffc0101f)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/ad894d7b-79a5-4c88-b4b1-cf50c598081a)
+![image](https://github.com/Elaf24/Full-Stack-Web-Project/assets/110555263/a1e44ea7-5213-4499-88be-49e9a6c8410d)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
 
 
 
 <!-- LICENSE -->
-<!-- ## License
+<!--## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
@@ -191,35 +169,16 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-<!--## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-<!--## Acknowledgments
-
-<!-- Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
- MARKDOWN LINKS & IMAGES -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
@@ -249,6 +208,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com  
+[JQuery-url]: https://jquery.com 
+
 
 
