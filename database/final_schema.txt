@@ -1,0 +1,101 @@
+CREATE TABLE `admin` (
+  `Aid` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `email` varchar(60) DEFAULT NULL,
+  `password` text NOT NULL,
+  `location` text NOT NULL,
+  `address` text NOT NULL,
+  PRIMARY KEY (`Aid`)
+);
+
+CREATE TABLE `delivery_persons` (
+  `Did` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`Did`)
+);
+
+CREATE TABLE `login` (
+  `id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `password` text NOT NULL,
+  `gender` text NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `user_feedback` (
+  `feedback_id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `message` text DEFAULT NULL,
+  PRIMARY KEY (`feedback_id`)
+);
+
+CREATE TABLE `food_campaign` (
+  `Fid` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `food` varchar(50) NOT NULL,
+  `type` text NOT NULL,
+  `category` text NOT NULL,
+  `quantity` text NOT NULL,
+  `date` datetime DEFAULT current_timestamp(),
+  `address` text NOT NULL,
+  `location` varchar(50) NOT NULL,
+  `phoneno` varchar(25) NOT NULL,
+  `assigned_to` int(11) DEFAULT NULL,
+  `delivery_by` int(11) DEFAULT NULL,
+  `img` VARCHAR(45) NULL,
+  `campaign_name` VARCHAR(45) NULL,
+  `adminEmail` VARCHAR(45) NULL,
+  `capacity` INT NULL,
+  `time` VARCHAR(45) NULL,
+  `status` VARCHAR(45) NULL,
+  `description` text DEFAULT NULL,
+  PRIMARY KEY (`Fid`)
+);
+
+CREATE TABLE `cloth_campaign` (
+  `Cid` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT NULL,
+  `email` varchar(60) DEFAULT NULL,
+  `cloth` varchar(50) DEFAULT NULL,
+  `type` text DEFAULT NULL,
+  `category` text DEFAULT NULL,
+  `quantity` text DEFAULT NULL,
+  `date` datetime DEFAULT current_timestamp(),
+  `address` text DEFAULT NULL,
+  `location` varchar(50) DEFAULT NULL,
+  `phoneno` varchar(25) DEFAULT NULL,
+  `assigned_to` int(11) DEFAULT NULL,
+  `delivery_by` int(11) DEFAULT NULL,
+  `img` VARCHAR(45) NULL,
+  `campaign_name` VARCHAR(45) NULL,
+  `adminEmail` VARCHAR(45) NULL,
+  `capacity` INT NULL,
+  `time` VARCHAR(45) NULL,
+  `status` VARCHAR(45) NULL,
+  `description` text DEFAULT NULL,
+  PRIMARY KEY (`Cid`)
+);
+
+CREATE TABLE `money_campaign` (
+  `Mid` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `date` datetime DEFAULT current_timestamp(),
+  `payment_method` varchar(50) DEFAULT NULL,
+  `message` text DEFAULT NULL,
+  `img` VARCHAR(45) NULL,
+  `campaign_name` VARCHAR(45) NULL,
+  `adminEmail` VARCHAR(45) NULL,
+  `capacity` INT NULL,
+  `time` VARCHAR(45) NULL,
+  `status` VARCHAR(45) NULL,
+  `description` text DEFAULT NULL,
+  PRIMARY KEY (`Mid`)
+);

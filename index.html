@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>সহায়তার দ্বার</title>
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #333;
+      }
+
+      .container {
+        text-align: center;
+        background: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .container img {
+        /* Ensure the height matches the width to make a circle */
+        /* Makes the image circular */
+        border: 5px solid green; /* Adds a solid green border */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .logo {
+        font-size: 45px;
+        margin-bottom: 10px;
+        color: #06c167;
+        font-weight: 600;
+      }
+
+      .para {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+        font-weight: 500;
+      }
+
+      a {
+        display: inline-block;
+        font-size: 18px;
+        background: #06c167;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-weight: 500;
+        margin: 10px;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      a:hover {
+        background: #04a357;
+      }
+
+      .log {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .container img {
+          width: 80px; /* Adjust the width for smaller screens */
+          height: 80px; /* Ensure the height matches the width to make a circle */
+        }
+
+        .logo {
+          font-size: 28px;
+        }
+
+        .para {
+          font-size: 20px;
+        }
+
+        a {
+          font-size: 16px;
+          padding: 10px 20px;
+        }
+
+        .log {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Logo Image -->
+      <img src="img/icon.png" alt="Logo" />
+      <!-- Site Title -->
+      <p class="logo">
+        <b style="color: green">সহায়তার </b>
+        <b style="color: #06c167">দ্বার</b>
+      </p>
+      <!-- Login Prompt -->
+      <p class="para">Login as</p>
+      <!-- Login Links -->
+      <div class="log">
+        <a href="signin.php">User</a>
+        <a href="admin/signin.php">Admin</a>
+        <!-- Uncomment the line below if needed -->
+        <!-- <a href="delivery/deliverysignup.php" id="delivery"><i class="fa-solid fa-moped"></i> Delivery</a> -->
+      </div>
+    </div>
+  </body>
+</html>

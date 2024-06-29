@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,800;1,400;1,600&display=swap");
+:root {
+  --navcolor: white;
+  --navfont: black;
+  --green: #06c167;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0.1);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* font-family:sans-serif; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fefefe;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+/* navigation bar  */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--navcolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  background: radial-gradient(
+    759px at 14% 22.3%,
+    rgb(10, 64, 88) 0%,
+    rgb(15, 164, 102) 90%
+  );
+}
+.logo {
+  font-size: 28px;
+  color: var(--navfont);
+}
+.hamburger {
+  display: none;
+}
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li a {
+  display: block;
+  color: var(--navfont);
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+.nav-bar ul li a:hover {
+  color: var(--navcolor);
+  background-color: var(--navfont);
+  border-radius: 50px;
+}
+.nav-bar ul li a.active {
+  color: var(--navcolor);
+  background-color: var(--navfont);
+  /* border-bottom: 8px solid #06C167; */
+}
+
+.campaigns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.campaign {
+  position: relative;
+  width: 400px; /* Increased width */
+  margin: 20px;
+  overflow: hidden;
+}
+
+.campaign img {
+  width: 100%;
+  border-radius: 10px; /* Increased border radius */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.campaign:hover img {
+  opacity: 0.8; /* Decrease opacity on hover */
+}
+
+.donate-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #06c167;
+  color: #fff;
+  padding: 15px 30px; /* Increased padding */
+  border: none;
+  border-radius: 8px; /* Increased border radius */
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 18px; /* Increased font size */
+}
+
+.campaign:hover .donate-btn {
+  opacity: 1; /* Show button on hover */
+}
+
+.campaign-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(155, 217, 177, 0.8);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.campaign:hover .campaign-info {
+  background-color: rgba(255, 255, 255, 0); /* Hide info on hover */
+}
+
+.campaign-info h2,
+.campaign-info p {
+  margin: 0;
+  padding: 0;
+  font-size: 24px; /* Increased font size */
+}
+/* Basic styles for campaign.html */
+
+.hero {
+  display: flex;
+  align-items: center; /* Content vertically centered */
+  justify-content: center; /* Content horizontally centered */
+  padding: 50px 0;
+  background-color: #5fa07b;
+}
+
+.hero-content {
+  width: 100%; /* Content fills available space horizontally */
+  text-align: center;
+  color: rgb(105, 36, 36);
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.step {
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 0.9;
+}
+
+.nav-bar ul li a.active {
+  color: var(--navcolor);
+  background-color: var(--navfont);
+  /* border-bottom: 8px solid #06C167; */
+}
